@@ -1,0 +1,45 @@
+La presente Política de Privacidad establece los términos en que esta aplicación de gestión de torneos de ajedrez (en adelante, "la Aplicación") usa y protege la información que es proporcionada por sus usuarios al momento de utilizarla. Estamos comprometidos con la seguridad de los datos de nuestros usuarios.
+
+1. Información Recogida
+
+Nuestra aplicación podrá recoger información personal, por ejemplo:
+
+Información de Registro: Nombre, dirección de correo electrónico e información de contacto (gestionado a través de Firebase Authentication).
+
+Datos del Torneo: Nombres de los jugadores, resultados de las partidas (1-0, 0-1, ½-½, 0-0) y notación de jugadas (PGN).
+
+Información Técnica: Datos sobre el dispositivo y el uso de la aplicación para asegurar el correcto funcionamiento técnico en Flutter.
+
+2. Uso de la Información Recogida
+
+La Aplicación utiliza la información con el fin de proporcionar el mejor servicio posible, particularmente para:
+
+Mantener un registro de los participantes y organizar los emparejamientos (Sistema Suizo, Round Robin, Eliminación Directa).
+
+Calcular automáticamente los desempates (Buchholz, Sonneborn-Berger y Resultado Particular).
+
+Generar reportes oficiales en formato PDF y Excel.
+
+Sincronizar en tiempo real los datos entre el Administrador y los Jugadores mediante Cloud Firestore.
+
+3. Almacenamiento y Seguridad (Firebase)
+
+Los datos se almacenan en la nube utilizando los servicios de Firebase (Google Cloud Platform). Google cuenta con altos estándares de seguridad y cifrado de datos. Como desarrolladores, implementamos Firebase Security Rules para asegurar que los Jugadores solo tengan acceso de lectura a los datos pertinentes y que solo el Administrador pueda modificar los resultados.
+
+4. Terceros y Enlaces
+
+Esta aplicación utiliza servicios de terceros para su funcionamiento core:
+
+Google Firebase: Para autenticación y base de datos.
+
+Librerías de Reportes: Procesamiento local en el dispositivo para la generación de archivos Excel y PDF.
+
+No vendemos, cedemos ni distribuimos la información personal que es recabada sin su consentimiento, salvo que sea requerido por un juez con una orden judicial.
+
+5. Derechos de los Usuarios (Acceso y Cancelación)
+
+En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a la Aplicación. Si desea eliminar su cuenta o que sus datos de participación en un torneo sean borrados/anonimizados, puede contactar al administrador del torneo o enviar una solicitud a [Insertar Correo de Soporte].
+
+6. Cambios en la Política
+
+Nos reservamos el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento para adaptarla a novedades legislativas o nuevas funciones de la aplicación.
