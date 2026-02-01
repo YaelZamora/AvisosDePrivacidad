@@ -1,0 +1,40 @@
+## Política de Privacidad
+
+**Última actualización:** 30 de enero de 2026
+
+En **Chess Family**, la privacidad de nuestros usuarios es una prioridad. Esta política describe cómo recopilamos, usamos y protegemos tu información al utilizar nuestros servicios.
+
+### 1. Información que Recopilamos
+
+Para el funcionamiento óptimo de la aplicación, interactuamos con los siguientes datos:
+
+- **Identificación y Acceso (Firebase):** Al iniciar sesión a través de Firebase Auth, recopilamos información básica como tu correo electrónico y nombre de perfil para gestionar tu cuenta de forma segura.
+- **Datos de Ajedrez (Lichess):** Utilizamos tu nombre de usuario de Lichess para consultar, mediante su API pública, información sobre tu nivel, ELO y estadísticas de juego. Estos datos se utilizan exclusivamente para personalizar tu experiencia dentro de la app.
+- **Almacenamiento (Google Drive):** Nuestra aplicación solicita acceso a una carpeta específica en tu Google Drive. No accedemos a archivos fuera de la carpeta autorizada.
+
+### 2. Uso de la Información
+
+Los datos recopilados se utilizan para:
+
+- Autenticar tu identidad y mantener la seguridad de tu sesión.
+- Sincronizar y mostrar tu progreso y nivel de ajedrez actualizado.
+- Gestionar el almacenamiento de tus archivos personalizados en la nube.
+
+### 3. Servicios de Terceros
+
+Tu información es procesada por proveedores de confianza con sus propias políticas de privacidad:
+
+- **Google (Firebase y Drive):** Para la gestión de usuarios y almacenamiento.
+- **Lichess.org:** Para obtener datos de perfil de ajedrez públicos.
+
+### 4. Seguridad de los Datos
+
+Implementamos medidas de seguridad técnicas para proteger tus credenciales y el acceso a tu carpeta de Drive. El login mediante Firebase asegura que nosotros no almacenamos directamente tus contraseñas.
+
+### 5. Tus Derechos (Derechos ARCO)
+
+Tienes derecho a acceder, rectificar, cancelar u oponerte al manejo de tus datos personales. Puedes revocar el acceso a Google Drive o Lichess en cualquier momento desde la configuración de tu cuenta en dichas plataformas o eliminando tu cuenta en nuestra app.
+
+### 6. Contacto
+
+Si tienes dudas sobre esta política, puedes contactarnos en: **yaelzamora.moreno@gmail.com**.
